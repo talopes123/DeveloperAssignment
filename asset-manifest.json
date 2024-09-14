@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/talopes123/DeveloperAssignment.git/static/css/main.9adf4039.css",
+    "main.js": "/talopes123/DeveloperAssignment.git/static/js/main.a6e24b6c.js",
+    "index.html": "/talopes123/DeveloperAssignment.git/index.html",
+    "main.9adf4039.css.map": "/talopes123/DeveloperAssignment.git/static/css/main.9adf4039.css.map",
+    "main.a6e24b6c.js.map": "/talopes123/DeveloperAssignment.git/static/js/main.a6e24b6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9adf4039.css",
+    "static/js/main.a6e24b6c.js"
+  ]
+}
