@@ -1,8 +1,6 @@
-/* src/UserTable.css */
-
-/* Body styling to create a clean, professional background */
+/* Body styling */
 body {
-    background-color: #f0f2f5; /* Light gray background for a professional look */
+    background-color: #f0f2f5; 
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -10,31 +8,30 @@ body {
 
 /* Container for the entire table section */
 .table-container {
-    max-width: 90%; /* Table takes up 90% of the page */
+    max-width: 90%; 
     padding: 30px;
-    background-color: #ffffff; /* White background for the container */
+    background-color: #ffffff; 
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for a card-like effect */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
     margin-top: 30px;
-    margin: 0 auto; /* Center the table */
-    font-size: 1.2rem; /* Keep font size readable */
+    margin: 0 auto; 
+    font-size: 1.2rem;
 }
 
 /* Filter container styling */
 .filter-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Increase gap between filter inputs */
-    margin-bottom: 40px; /* More space between filters and the table */
+    gap: 20px; 
+    margin-bottom: 40px; 
 }
 
-/* Enhanced input styling for the filters */
+/* Filters */
 .filter-container input {
-    padding: 12px; /* Slightly smaller padding for a slimmer filter row */
+    padding: 12px; 
     width: 100%;
-    border: 1px solid #ccc; /* Light gray border for a clean look */
     border-radius: 8px;
-    font-size: 1.1rem; /* Standard input text size */
+    font-size: 1.1rem; 
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
     transition: border 0.3s ease, box-shadow 0.3s ease;
 }
@@ -42,61 +39,61 @@ body {
 /* Focus effect for inputs */
 .filter-container input:focus {
     outline: none;
-    border: 1px solid #007acc; /* Professional blue focus color */
-    box-shadow: 0 0 5px rgba(0, 122, 204, 0.3); /* Blue focus shadow */
+    border: 1px solid #007acc; 
+    box-shadow: 0 0 5px rgba(0, 122, 204, 0.3); 
 }
 
 /* Table styling */
 table {
-    width: 100%; /* Full width table */
-    border-collapse: separate; /* Separate borders for modern look */
-    border-spacing: 0 10px; /* Slight space between rows */
-    background-color: #ffffff; /* White background for the table */
-    font-size: 1.2rem; /* Slightly larger font size */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05); /* Soft shadow under the table */
-    border-radius: 12px; /* Rounded corners for the whole table */
+    width: 100%; 
+    border-collapse: separate; 
+    border-spacing: 0 10px; 
+    background-color: #ffffff; 
+    font-size: 1.2rem; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05); 
+    border-radius: 12px; 
     overflow: hidden;
 }
 
 /* Header row styling */
 thead th {
-    background-color: #007acc; /* Professional blue for headers */
+    background-color: #007acc; 
     color: white;
     text-align: left;
-    padding: 14px 24px; /* More horizontal padding, less vertical padding */
+    padding: 14px 24px; 
     font-weight: bold;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    border-top-left-radius: 12px; /* Rounded corners for the top left */
-    border-top-right-radius: 12px; /* Rounded corners for the top right */
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px; 
 }
 
 /* Table data (td) styling */
 td {
-    padding: 14px 24px; /* More horizontal padding for a wider table */
-    color: #333333; /* Dark gray text for readability */
-    background-color: #ffffff; /* White background for table cells */
-    border-bottom: 1px solid #e0e0e0; /* Light gray border between rows */
+    padding: 14px 24px; 
+    color: #333333; 
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0; 
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Row hover effect */
 tbody tr:hover td {
-    background-color: #e6f0ff; /* Light blue hover effect */
+    background-color: #e6f0ff; 
     color: #333333;
-    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+    cursor: pointer; 
     transition: background-color 0.3s ease;
 }
 
 /* Alternating row color */
 tbody tr:nth-child(even) td {
-    background-color: #f7f9fc; /* Light gray alternating row for a clean look */
+    background-color: #f7f9fc; 
 }
 
-/* First column (Name) and other important columns can have custom styling */
+/* First column (Name) */
 td:first-child {
-    font-weight: 600; /* Bold for the first column */
-    color: #007acc; /* Professional blue for important text */
+    font-weight: 600; 
+    color: #007acc;
 }
 
 /* Styling for the header's text (h2) */
@@ -104,26 +101,26 @@ h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
     text-align: center;
-    color: #007acc; /* Professional blue for headings */
+    color: #007acc; 
 }
 
-/* Add a subtle shadow and rounded corners to the entire row */
+/* Subtle shadow and rounded corners to the entire row */
 tbody tr {
-    border-radius: 8px; /* Rounded corners for rows */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Light shadow for rows */
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
 }
 
 /* Table header and first row corners */
 thead th:first-child {
-    border-top-left-radius: 12px; /* Top left corner rounded */
+    border-top-left-radius: 12px; 
 }
 thead th:last-child {
-    border-top-right-radius: 12px; /* Top right corner rounded */
+    border-top-right-radius: 12px; 
 }
 
 tbody tr:first-child td:first-child {
-    border-bottom-left-radius: 12px; /* Bottom left corner rounded */
+    border-bottom-left-radius: 12px;
 }
 tbody tr:first-child td:last-child {
-    border-bottom-right-radius: 12px; /* Bottom right corner rounded */
+    border-bottom-right-radius: 12px; 
 }
