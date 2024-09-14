@@ -2,7 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/talopes123/DeveloperAssignment.git",
+  "homepage": "https://talopes123.github.io/DeveloperAssignment",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
